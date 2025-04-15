@@ -20,7 +20,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <header> 
+          <h1><img src = "logo.jpeg"/>ACADEMIA GLADIADORES </h1> 
+        
+        
+        </header>{children}
       </body>
     </html>
   );
