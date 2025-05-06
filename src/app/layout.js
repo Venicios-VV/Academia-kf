@@ -21,9 +21,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <header> 
-          <h1><img src = "logo.jpeg"/>ACADEMIA GLADIADORES </h1> 
-        
-        
+          <h1>
+            <img src = "logo.jpeg" width={80}/>ACADEMIA GLADIADORES 
+            <a href="https://www.google.com" >Página inicial</a> 
+            <a href="https://www.youtube.com">Agenda</a>
+        </h1> 
+    
         </header>{children}
       </body>
     </html>
