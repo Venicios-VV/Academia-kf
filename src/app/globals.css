@@ -12,7 +12,18 @@
 header {
   background-color: #000000;
   word-spacing: 3px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  padding: 5px;
+  box-sizing: border-box;
 }
+.espacamento-h1 {
+  display: flex;
+  align-items: center;
+}
+
 html,
 body {
   max-width: 100vw;
@@ -43,4 +54,35 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.divespacamentodelinhas {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #888888;  /* Cor de fundo cinza */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  align-items: center;
+  gap: 50px;
+}
+
+.logout-button:hover {
+  background-color: #666666;  /* Escurece quando o usuário passa o mouse */
+}
+
+.logout-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5); /* Destaque ao focar */
 }
