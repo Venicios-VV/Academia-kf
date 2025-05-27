@@ -24,13 +24,13 @@ export default function RootLayout({ children }) {
         <header>
           <div className="espacamento-h1">
             <img src="logo.jpeg" height={100} width={100} alt="Logo" />
-            <h1>ACADEMIA GLADIADORES</h1>
+            <h1>CT GLADIADORES</h1>
           </div>
 
           <div className="divespacamentodelinhas">
             <a className="espaçamento" href="http://localhost:3000/usuario">Pagina inicial</a>
             <a className="espaçamento" href="https://www.google.com/?hl=pt-BR">Agenda</a>
-            <a className="espaçamento" href="https://www.google.com/?hl=pt-BR">Treino</a>
+  
             <Link href="/aluno">Aluno</Link>
             <a className="espaçamento" href="https://www.google.com/?hl=pt-BR" style={{ color: 'gray' }}>Mensalidade</a>
           </div>
