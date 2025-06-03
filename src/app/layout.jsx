@@ -21,23 +21,25 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <header>
+       <header> 
           <div className="espacamento-h1">
-            <img src="logo.jpeg" height={100} width={100} alt="Logo" />
-            <h1>CT GLADIADORES</h1>
+            <img src = "logo.jpeg" height={100} width={100}/>
+            <h1 className="titulo">CT GLADIADORES</h1>
           </div>
+            
 
-          <div className="divespacamentodelinhas">
-            <a className="espaçamento" href="http://localhost:3000/usuario">Pagina inicial</a>
-            <a className="espaçamento" href="https://www.google.com/?hl=pt-BR">Agenda</a>
-  
-            <Link href="/aluno">Aluno</Link>
-            <a className="espaçamento" href="https://www.google.com/?hl=pt-BR" style={{ color: 'gray' }}>Mensalidade</a>
-          </div>
-
-          <button className="logout-button">
-            Log out
-          </button>
+            <div className="divespacamentodelinhas">
+            
+            <a className="espaçamento" href="../paginainicial">Página inicial</a> 
+            <a className="espaçamento" href="../planos" style = {{color: 'gray'}}>Planos</a>
+        
+            </div>
+            <div className="botao">
+                    <a href="../registro"><button className="button">Registrar</button></a>
+            </div>
+            <div className="botao1">
+                    <a href="../login"><button className="button">Logar</button></a>
+            </div>            
         </header>
         {children}
       </body>

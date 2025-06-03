@@ -62,28 +62,13 @@ a {
   align-items: center;
 }
 
-.logout-button {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  padding: 10px 20px;
-  background-color: #888888;  /* Cor de fundo cinza */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-  align-items: center;
-  gap: 50px;
+.titulo {
+  padding-left: 20px;
 }
 
-.logout-button:hover {
-  background-color: #666666;  /* Escurece quando o usuário passa o mouse */
+.button {
+    width: 100px; 
+    height: 35px; 
+    background-color: #00000000; 
+    border-radius: 10px;
 }
-
-.logout-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5); /* Destaque ao focar */
-}
-
