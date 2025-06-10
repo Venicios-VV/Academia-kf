@@ -37,7 +37,7 @@ export default function Login() {
               Salvar senha
             </label>
 
-            <button type="submit" className={style.button}>Entrar</button>
+            <button type="submit" className={style.button}>Entrar<a href="../paginainicial"></a></button>
           </form>
         </div>
       </div>
